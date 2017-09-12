@@ -43,7 +43,10 @@
       <div class="container text-sm-center pt-5">
         <h1 class="display-2">Full Stack Conf</h1>
         <p class="lead">A One-day Conference About All Things JavaScript!</p>
-      </div>
+        <div class="btn-group mt-2" role="group" aria-label="Basic example"></div>
+          <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+          <a href="#speakers" class="btn btn-secondary btn-lg">See Speakers</a>
+        </div>
     </div>
     <!-- /jumbotron -->
 
@@ -76,12 +79,33 @@
       </div>  <!-- /about -->
 
       <!-- speakers -->
-      <h1 class="display-4 text-center my-5 text-muted">Speakers</h1>
-      [Speaker bios go here]
+      <h1 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h1>
+      <div class="row">
+        <div class="col-md-6">
+        </div>
+      
+        <div class="col-md-6">
+        </div>
+      
+        <div class="col-md-6">
+        </div>
+      
+        <div class="col-md-6">
+        </div>
+      
+        <div class="col-md-6">
+        </div>
+      
+        <div class="col-md-6">
+        </div>
+      </div><!-- /speakers -->
 
       <!-- schedule -->
       <h1 class="display-4 text-center my-5 text-muted">Schedule</h1>
       [Conference schedule goes here]
+
+      <!-- callout button -->
+      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't miss out, register now</button>
 
       <!-- signup form -->
       <hr>
@@ -101,6 +125,38 @@
         </div>
       </div>
       <hr><!-- /signup form -->
+
+      <!-- footer -->
+      <div class="row py-3">
+          <div class="col-md-7">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Community</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tracks</a>
+                </li>
+                <li class="nav-item">
+                  <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary">Other Confs</button>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">CSS Conf</a>
+                      <a class="dropdown-item" href="#">Python Conf</a>
+                      <a class="dropdown-item" href="#">Java Conf</a>
+                      <a class="dropdown-item" href="#">Swift Conf</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+          </div>
+          <div class="col-md-5 text-md-right">
+            <small>&copy; 2017 Full Stack Conf &amp; Flannigan</small>
+          </div>
+        </div>
+      <!-- /footer -->
 
     </div> <!-- /.container -->
 
