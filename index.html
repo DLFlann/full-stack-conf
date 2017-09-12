@@ -43,7 +43,7 @@
         <h1 class="display-2">Full Stack Conf</h1>
         <p class="lead">A One-day Conference About All Things JavaScript!</p>
         <div class="btn-group mt-2" role="group" aria-label="Basic example"></div>
-          <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
           <a href="#speakers" class="btn btn-secondary btn-lg">See Speakers</a>
         </div>
     </div>
@@ -195,7 +195,7 @@
       </ul><!-- /schedule -->
 
       <!-- callout button -->
-      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't miss out, register now</button>
+      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't miss out, register now</button>
 
       <!-- signup form -->
       <hr>
@@ -249,6 +249,29 @@
       <!-- /footer -->
 
     </div> <!-- /.container -->
+
+    <!--=================================== 
+      FORM MODAL
+     ===================================-->
+     <div id="register" class="modal fade">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Register for Full Stack Conf</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Form goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Register</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- jQuery first, then bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
