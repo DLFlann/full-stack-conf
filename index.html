@@ -8,7 +8,7 @@
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   </head>
-  <body>
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
     <!-- navbar -->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-primary">
       <div class="container">
@@ -21,7 +21,7 @@
               <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#abut">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#speakers">Speakers</a>
@@ -51,7 +51,7 @@
 
     <div class="container pt-5">
       <!-- about -->
-      <div class="row">
+      <div id="about" class="row">
         <div class="col-md-4 push-lg-4">
           <h3 class="mb-4">About Full Stack Conf</h3>
           <img class="mb-3 img-fluid rounded hidden-xs-down" src="img/pdx.jpg" alt="Portland">
@@ -142,7 +142,7 @@
       </div><!-- /speakers -->
 
       <!-- schedule -->
-      <ul class="list-group" id="schedule">
+      <ul id="schedule" class="list-group" id="schedule">
         <li class="list-group-item list-group-item-action flex-column align-items-start">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">Keynote: Internet of Things</h5>
